@@ -3,7 +3,10 @@ def suma(a, b):
         
     if a==2 and b==3:
         return 5
- 
+
+    
+    return int(a)+int(b) 
+     
 def prueba():
     assert suma(1,0) == 1
     assert suma(0,0) == 0
