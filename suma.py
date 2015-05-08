@@ -1,17 +1,8 @@
 def suma(a, b):
-    if a == 1 and b == 1:
-        return 2
-    if a == 2:
-        return 2*a + 1
-    else:
-        return a
-        
+    return a + b
         
     if a==2 and b==3:
         return 5
-     
-     
-    
  
 def prueba():
     assert suma(1,0) == 1
